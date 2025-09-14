@@ -1,0 +1,21 @@
+{
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "removeComments": true,
+      "strict": true, 
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true, 
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "allowUmdGlobalAccess": false,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true
+    }
+  }

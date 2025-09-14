@@ -1,0 +1,6 @@
+{
+  "git branch --show-current": "Not a git repository. Have you run 'kit init'?",
+  "git init": "This directory is already a git repository.",
+  "git reset --soft HEAD~1": "Cannot undo: There are no commits in the repository yet.",
+  "git commit --amend --no-edit": "Cannot fixup: There are no commits to amend yet."
+}

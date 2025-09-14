@@ -1,18 +1,32 @@
 {
-  "name": "kit",
+  "name": "@briadsa/kit",
   "version": "1.0.0",
-  "description": "Removing .gitignore Removing eslint.config.js Removing package-lock.json Removing package.json Removing readme.md Removing rollup.config.js Removing tsconfig.json",
-  "license": "ISC",
-  "author": "",
+  "description": "A simple CLI tool designed to simplify common and repetitive git commands.",
+  "keywords": [
+    "git",
+    "kit",
+    "trivial",
+    "simple"
+  ],
+  "homepage": "https://github.com/iarlo/kit",
+  "bugs": {
+    "url": "https://github.com/iarlo/kit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iarlo/kit.git"
+  },
+  "license": "MIT",
+  "author": "Bruno Sá <iarlo.sa@dcomp.ufs.br> (https://github.com/iarlo)",
   "type": "module",
   "main": "index.js",
+  "bin": {
+    "kit": "bin/index.js"
+  },
   "files": [
     "bin",
     "resources"
   ],
-  "bin": {
-    "kit": "bin/index.js"
-  },
   "scripts": {
     "prepare": "rollup -c",
     "build": "rollup -c",

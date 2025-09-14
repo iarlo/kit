@@ -6,31 +6,11 @@ A simple CLI tool designed to simplify common and repetitive git commands.
 
 This project is built with TypeScript. To get started, you'll need Node.js and npm.
 
-1.  **Install Dependencies:**
+- **Install globally with npm:**
 
-    ```bash
-    npm install
-    ```
-
-2.  **Build the Project:**
-
-    The source code is in TypeScript and needs to be compiled into JavaScript.
-
-    ```bash
-    # Build once
-    npm run build
-
-    # Or, build and watch for changes
-    npm run watch
-    ```
-
-3.  **Link for Development:**
-
-    To use the `kit` command anywhere on your system, you can create a symbolic link.
-
-    ```bash
-    npm link
-    ```
+  ```bash
+  npm install -g @briadsa/kit
+  ```
 
 ## Commands
 
